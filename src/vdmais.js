@@ -16,11 +16,12 @@ const vdmais = async (param, pathToImg) => {
     const tr = Array.from(document.querySelectorAll('.table-orders_catalog__row'));
     const text = tr.map(td => {
       const raw = td.textContent;
-      return raw.replace(/(\t)/gm, '').trim();
+      return raw.replace(/(\t)/gm, '').replace(/ /gm, '').trim();
     });
     return text;
   });
   await browser.close();
+  if (!table.length) return { message: 'Товар не знайдено!' };
   return table;
 }
 

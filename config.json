@@ -3,7 +3,8 @@
     "rcs": "https://www.rcscomponents.kiev.ua/modules.php?name=Asers_Shop&s_op=search&query=",
     "vdmais": "https://catalog.vdmais.ua/uk/parasearch/get/?keyword=",
     "cosmodrom": "http://www.kosmodrom.com.ua/prodlist.php?page=0&name=",
-    "electronoff": "https://electronoff.ua/search?name="
+    "electronoff": "https://electronoff.ua/search?name=",
+    "masteram": "https://masteram.com.ua/ru/search/?searchword="
   },
   "browserHeadless": true,
   "makeScreenshot": true

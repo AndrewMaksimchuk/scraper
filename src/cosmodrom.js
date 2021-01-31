@@ -16,8 +16,8 @@ const cosmodrom = async (param, pathToImg) => {
   const table = await page.evaluate(() => {
     const tr = Array.from(document.querySelectorAll('tr[bgcolor]'));
     const result = tr.map(elementTR => {
-        let description = elementTR.children[1]
-        description = description.firstChild.firstChild.textContent;
+        let name = elementTR.children[1]
+        name = name.firstChild.firstChild.textContent;
         let price = elementTR.lastElementChild
         if (!price) price = 'Ціну не отримано';
         try {
@@ -27,8 +27,7 @@ const cosmodrom = async (param, pathToImg) => {
           price = 'Ціну не отримано'
           console.error(e)
         }
-        console.log(description, '\n', price);
-        return {description, price};
+        return {name, price};
     })
     return result;
   });
