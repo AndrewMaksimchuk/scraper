@@ -1,0 +1,16 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "run": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
