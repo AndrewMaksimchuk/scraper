@@ -4,7 +4,8 @@
     "vdmais": "https://catalog.vdmais.ua/uk/parasearch/get/?keyword=",
     "cosmodrom": "http://www.kosmodrom.com.ua/prodlist.php?page=0&name=",
     "electronoff": "https://electronoff.ua/search?name=",
-    "masteram": "https://masteram.com.ua/ru/search/?searchword="
+	"masteram": "https://masteram.com.ua/ru/search/?searchword=",
+	"imrad": "https://imrad.com.ua/ua/search?searchkeywords="
   },
   "browserHeadless": true,
   "makeScreenshot": true

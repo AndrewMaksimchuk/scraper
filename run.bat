@@ -1,1 +1,1 @@
-node index.js
+cls && node index.js
